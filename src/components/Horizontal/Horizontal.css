@@ -1,0 +1,15 @@
+.horizontal{
+   
+    width: 100%;
+    height: 50px;
+    transform: rotate(2.5deg);
+}
+hr {
+    position: relative;
+    top: 25px;
+    border: none;
+    height: 25px;
+    background: gray;
+    
+   
+}

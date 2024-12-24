@@ -1,0 +1,87 @@
+.contact-form-container {
+  margin: 100px auto;
+  width: 70%;
+  max-width: 800px;
+  padding: 40px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form-container h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #e1e1e1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00aaff;
+  background-color: #444;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+
+.contact-form button:active {
+  background-color: #004d8a;
+}
+
+.contact-form .form-group input:invalid,
+.contact-form .form-group textarea:invalid {
+  border-color: #ff4d4d;
+}
